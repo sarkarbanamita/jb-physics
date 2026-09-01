@@ -1,0 +1,319 @@
+\documentclass[14pt,a4paper]{extarticle}
+
+% --- Essential Packages ---
+\usepackage[margin=1.5cm]{geometry}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{tikz}
+\usepackage{tasks}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+
+% --- Font & Language for XeLaTeX / LuaLaTeX ---
+\usepackage{fontspec}
+% Scaled font for better visibility and large display
+\newfontfamily\bengalifont{Noto Serif Bengali}[
+  BoldFont={Noto Serif Bengali Bold},
+  Scale=1.1
+]
+
+% --- Watermark: JB PHYSICS ---
+\usepackage{eso-pic}
+\AddToShipoutPictureBG{%
+  \begin{tikzpicture}[remember picture, overlay]
+    \node[
+      rotate=45,
+      scale=5.5,
+      text=black!10,
+      font=\bfseries\sffamily
+    ] at (current page.center) {JB PHYSICS};
+  \end{tikzpicture}%
+}
+
+% --- Page Header & Footer ---
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\textbf{\large Class 12 Physics — PYQ Practice}}
+\rhead{\textbf{\large JB PHYSICS}}
+\cfoot{\textbf{\thepage}}
+\renewcommand{\headrulewidth}{0.8pt}
+
+% Custom Command for Question Header
+\newcommand{\questionheader}[1]{%
+  \vspace{0.5cm}\noindent{\Large\textbf{#1}}\vspace{0.15cm}%
+}
+
+\begin{document}
+
+% --- Header Title Banner ---
+\begin{center}
+  {\Huge \textbf{JB PHYSICS}}\\[6pt]
+  {\LARGE \textbf{Class 12 Physics | Semester III (2026)}}\\[6pt]
+  \rule{\textwidth}{1.5pt}\\[6pt]
+  \textbf{\large Full Marks: 35} \hfill \textbf{\large Time: 1h 15min} \hfill \textbf{\large Marks: $1 \times 15 = 15$}
+\end{center}
+
+\vspace{0.3cm}
+\noindent\textit{\textbf{\large Instructions:} All questions carry 1 mark each. Choose the single correct option for each question.}
+\vspace{0.4cm}
+
+\settasks{label=(\Alph*), label-width=4ex, item-indent=1.5em, column-sep=1.5em}
+
+% ==================== QUESTION 1 ====================
+\questionheader{Question 1}
+
+{\bengalifont কোনো অঞ্চলে ক্রিয়াশীল তড়িৎক্ষেত্র হল $\vec{E} = (3\hat{i} - 4\hat{j} + 2\hat{k})\text{ V/m}$; ওই অঞ্চলে $YZ$-তলে অবস্থিত $2\text{ m}$ বাহুবিশিষ্ট বর্গাকার ক্ষেত্রের মধ্য দিয়ে অতিক্রান্ত তড়িৎ ফ্লাক্স হল—}
+
+\vspace{0.1cm}
+\textit{The electric field in a region is $\vec{E} = (3\hat{i} - 4\hat{j} + 2\hat{k})\text{ V/m}$. The electric flux passing through a square region of side $2\text{ m}$ situated in the $YZ$-plane in that region is:}
+
+\begin{tasks}(4)
+  \task $12\text{ V}\cdot\text{m}$
+  \task $6\text{ V}\cdot\text{m}$
+  \task $-16\text{ V}\cdot\text{m}$
+  \task $8\text{ V}\cdot\text{m}$
+\end{tasks}
+
+% ==================== QUESTION 2 ====================
+\questionheader{Question 2}
+
+{\bengalifont একটি সমান্তরাল পাতধারকের পাতদ্বয়ের মধ্যবর্তী মাধ্যমের পরাবৈদ্যুতিক ধ্রুবক $2$। এর ধারকত্ব $3\,\mu\text{F}$। এখন, ধারকটির পাতদ্বয়ের মধ্যবর্তী দূরত্ব দ্বিগুণ করে, ওই ফাঁকা স্থানে $k = 4$ পরাবৈদ্যুতিক ধ্রুবকসম্পন্ন প্লেট প্রবেশ করানো হল। এখন ধারকটির ধারকত্ব হবে—}
+
+\vspace{0.1cm}
+\textit{The dielectric constant of the medium between the plates of a parallel plate capacitor is $2$. Its capacitance is $3\,\mu\text{F}$. Now, the distance between the plates is doubled and a plate of dielectric constant $k = 4$ is inserted into that space. Now the capacitance of the capacitor will be:}
+
+\begin{tasks}(4)
+  \task $1\,\mu\text{F}$
+  \task $2\,\mu\text{F}$
+  \task $6\,\mu\text{F}$
+  \task $9\,\mu\text{F}$
+\end{tasks}
+
+% ==================== QUESTION 3 ====================
+\questionheader{Question 3}
+
+{\bengalifont দুটি পরিবাহী $X$ এবং $Y$-এর ধারকত্ব যথাক্রমে $3C$ এবং $C$। পরিবাহী $X$-এ $Q$ আধান দেওয়া হল যা পরিবাহীটি $Y$-এর সঙ্গে ভাগ করে নেয়। ভাগ হওয়ার পরে মোট শক্তি এবং মোট প্রাথমিক শক্তির অনুপাত হবে—}
+
+\vspace{0.1cm}
+\textit{Two conductors $X$ and $Y$ have capacitances $3C$ and $C$ respectively. A charge $Q$ is given to conductor $X$, which is then shared with conductor $Y$. The ratio of total energy after sharing to total initial energy will be:}
+
+\begin{tasks}(4)
+  \task $9:16$
+  \task $\sqrt{3}:2$
+  \task $3:4$
+  \task $4:3$
+\end{tasks}
+
+% ==================== QUESTION 4 ====================
+\questionheader{Question 4}
+
+{\bengalifont
+নিম্নলিখিত বিবৃতিগুলির মধ্যে কোনটি/কোনগুলি সঠিক তা চিহ্নিত করো:\\
+$l$ দৈর্ঘ্যবিশিষ্ট ও $A$ প্রস্থচ্ছেদবিশিষ্ট কোনো পরিবাহীর দু-প্রান্তে $V$ বিভবপ্রভেদ প্রয়োগ করা হল।\\
+\textbf{বিবৃতি I :} বিভবপ্রভেদ দ্বিগুণ করা হলে তড়িৎপ্রবাহ ঘনত্ব দ্বিগুণ হবে।\\
+\textbf{বিবৃতি II :} বিভবপ্রভেদ দ্বিগুণ করা হলে বিচলন বেগ অর্ধেক হয়ে যাবে।\\
+\textbf{বিবৃতি III :} প্রস্থচ্ছেদ দ্বিগুণ করা হলে তড়িৎপ্রবাহ ঘনত্ব কমে যাবে।
+}
+
+\vspace{0.15cm}
+\textit{Identify which of the following statement(s) is/are correct:\\
+A potential difference $V$ is applied across the ends of a conductor of length $l$ and cross-sectional area $A$.\\
+\textbf{Statement I:} If the potential difference is doubled, current density will be doubled.\\
+\textbf{Statement II:} If the potential difference is doubled, drift velocity will become half.\\
+\textbf{Statement III:} If the cross-sectional area is doubled, current density will decrease.}
+
+\begin{tasks}(2)
+  \task {\bengalifont I এবং II সঠিক} / I and II are correct
+  \task {\bengalifont কেবলমাত্র I সঠিক} / Only I is correct
+  \task {\bengalifont কেবলমাত্র III সঠিক} / Only III is correct
+  \task {\bengalifont II এবং III সঠিক} / II and III are correct
+\end{tasks}
+
+% ==================== QUESTION 5 ====================
+\questionheader{Question 5}
+
+{\bengalifont ধরা যাক $l$ দৈর্ঘ্যবিশিষ্ট একটি তারের রোধ হল $R$। এখন তারটিকে ততক্ষণ টানা হল যতক্ষণ না তারটির দৈর্ঘ্য পূর্বের $x$ গুণ হয়। এখন তারটির রোধ হবে—}
+
+\vspace{0.1cm}
+\textit{Let the resistance of a wire of length $l$ be $R$. Now the wire is stretched until its length becomes $x$ times the initial length. Now the resistance of the wire will be:}
+
+\begin{tasks}(4)
+  \task $x^2 R$
+  \task $x R$
+  \task $\dfrac{R}{x}$
+  \task $R$
+\end{tasks}
+
+% ==================== QUESTION 6 ====================
+\questionheader{Question 6}
+
+{\bengalifont অ্যাম্পিয়ারের বর্তনী সূত্র অনুযায়ী একটি আদর্শ সলিনয়েডের অক্ষে চৌম্বক ক্ষেত্রপ্রাবল্য $B$ এবং এর ব্যাসার্ধ $r$ হলে—}
+
+\vspace{0.1cm}
+\textit{According to Ampere's circuital law, for an ideal solenoid, the magnetic field strength $B$ on its axis and its radius $r$ are related as:}
+
+\begin{tasks}(2)
+  \task $B \propto r$
+  \task $B \propto \dfrac{1}{r}$
+  \task $B \propto \dfrac{1}{r^2}$
+  \task {\bengalifont $B$, $r$-এর নিরপেক্ষ} / $B$ is independent of $r$
+\end{tasks}
+
+% ==================== QUESTION 7 ====================
+\questionheader{Question 7}
+
+{\bengalifont একটি ভোল্টমিটারের রোধ $300\,\Omega$। যন্ত্রটি $150\text{ V}$ সর্বোচ্চ বিভবপার্থক্য পরিমাপ করতে পারে। যন্ত্রটিকে $8\text{ A}$ পর্যন্ত প্রবাহমাত্রা মাপার উপযুক্ত অ্যামিটারে পরিণত করতে হলে যে রোধ যুক্ত করতে হবে, তা হল—}
+
+\vspace{0.1cm}
+\textit{The resistance of a voltmeter is $300\,\Omega$. The instrument can measure a maximum potential difference of $150\text{ V}$. To convert this instrument into an ammeter capable of measuring currents up to $8\text{ A}$, the resistance to be connected is:}
+
+\begin{tasks}(2)
+  \task $20\,\Omega$, {\bengalifont সমান্তরালে} / in parallel
+  \task $20\,\Omega$, {\bengalifont শ্রেণিতে} / in series
+  \task $30\,\Omega$, {\bengalifont সমান্তরালে} / in parallel
+  \task $40\,\Omega$, {\bengalifont শ্রেণিতে} / in series
+\end{tasks}
+
+% ==================== QUESTION 8 ====================
+\questionheader{Question 8}
+
+{\bengalifont অর্ধবৃত্তাকার পরিবাহীর ক্ষেত্রে (চিত্রে দেখানো হয়েছে): পরিবাহীর কেন্দ্রবিন্দুতে চৌম্বক ক্ষেত্র হবে—}
+
+\vspace{0.1cm}
+\textit{For the semicircular conductor (as shown in the figure): the magnetic field at the center of the conductor will be:}
+
+\begin{center}
+\begin{tikzpicture}[scale=1.0, >=latex]
+    % Straight left wire
+    \draw[thick, ->] (-2.5, 0) -- (-1.2, 0);
+    \draw[thick] (-1.2, 0) -- (0, 0);
+    \node[above] at (-1.5, 0.05) {$i$};
+    
+    % Semicircular wire
+    \draw[thick, ->] (0,0) arc (180:90:1.3);
+    \draw[thick] (0,0) arc (180:0:1.3);
+    
+    % Center point and radius indicator
+    \filldraw (1.3, 0) circle (1.8pt) node[below] {$O$};
+    \draw[dashed] (1.3, 0) -- (1.3, 1.3);
+    \node[right] at (1.3, 0.65) {$a$};
+    
+    % Straight right wire
+    \draw[thick, ->] (2.6, 0) -- (3.8, 0);
+    \draw[thick] (3.8, 0) -- (5.1, 0);
+    \node[above] at (4.0, 0.05) {$i$};
+\end{tikzpicture}
+\end{center}
+
+\begin{tasks}(4)
+  \task $\dfrac{\mu_0 i}{2a}$
+  \task $\dfrac{\mu_0 i}{2\pi a}$
+  \task {\bengalifont শূন্য} / Zero
+  \task $\dfrac{\mu_0 i}{4a}$
+\end{tasks}
+
+% ==================== QUESTION 9 ====================
+\questionheader{Question 9}
+
+{\bengalifont কোনো একস্থানে পৃথিবীর চৌম্বক ক্ষেত্রের উল্লম্ব উপাংশ অনুভূমিক উপাংশের দ্বিগুণ। ওই স্থানে বিনতি কোণ $\theta$ হলে, $\tan\theta$-এর মান হবে—}
+
+\vspace{0.1cm}
+\textit{At a certain place, the vertical component of Earth's magnetic field is twice the horizontal component. If the angle of dip at that place is $\theta$, the value of $\tan\theta$ will be:}
+
+\begin{tasks}(4)
+  \task $2$
+  \task $\dfrac{1}{2}$
+  \task $\dfrac{1}{\sqrt{3}}$
+  \task $\sqrt{3}$
+\end{tasks}
+
+% ==================== QUESTION 10 ====================
+\questionheader{Question 10}
+
+{\bengalifont $1\text{ m}$ বাহু এবং $1\,\Omega$ রোধবিশিষ্ট একটি বর্গাকার কুণ্ডলীকে $0.5\text{ T}$ চৌম্বক ক্ষেত্রে রাখা আছে। যদি কুণ্ডলীর তল চৌম্বক ক্ষেত্রের অভিমুখের সঙ্গে লম্ব হয়, তাহলে কুণ্ডলীর মধ্যে দিয়ে চৌম্বক প্রবাহ হবে—}
+
+\vspace{0.1cm}
+\textit{A square coil of side $1\text{ m}$ and resistance $1\,\Omega$ is placed in a magnetic field of $0.5\text{ T}$. If the plane of the coil is perpendicular to the direction of the magnetic field, then the magnetic flux through the coil will be:}
+
+\begin{tasks}(4)
+  \task $0.5\text{ weber}$
+  \task $1\text{ weber}$
+  \task $0\text{ weber}$
+  \task $2\text{ weber}$
+\end{tasks}
+
+% ==================== QUESTION 11 ====================
+\questionheader{Question 11}
+
+{\bengalifont কোনো তিরশ্চৌম্বক পদার্থের ক্ষেত্রে কোনটি সঠিক?}
+
+\vspace{0.1cm}
+\textit{For a diamagnetic material, which of the following is correct?}
+
+\begin{tasks}(4)
+  \task $B = H$
+  \task $B < H$
+  \task $B > H$
+  \task $B \gg H$
+\end{tasks}
+
+% ==================== QUESTION 12 ====================
+\questionheader{Question 12}
+
+{\bengalifont একটি ইস্পাতের তারের চৌম্বক ভ্রামক $M$। এটিকে বাঁকিয়ে অর্ধবৃত্তাকার করা হলে তারটির নতুন চৌম্বক ভ্রামক হবে—}
+
+\vspace{0.1cm}
+\textit{The magnetic dipole moment of a steel wire is $M$. If it is bent into a semicircle, the new magnetic dipole moment of the wire will be:}
+
+\begin{tasks}(4)
+  \task $M$
+  \task $\dfrac{2M}{\pi}$
+  \task $\dfrac{M}{2\pi}$
+  \task $\dfrac{M}{\pi}$
+\end{tasks}
+
+% ==================== QUESTION 13 ====================
+\questionheader{Question 13}
+
+{\bengalifont দুটি সমান্তরাল তড়িৎবাহী তারের মধ্যে ক্রিয়াশীল বল $F$। যদি প্রতিটি তারের প্রবাহ দ্বিগুণ ও মধ্যবর্তী দূরত্ব তিনগুণ করা হয়, তাহলে তাদের মধ্যে ক্রিয়াশীল বল হবে—}
+
+\vspace{0.1cm}
+\textit{The force acting between two parallel current-carrying wires is $F$. If the current in each wire is doubled and the distance between them is tripled, the force acting between them will be:}
+
+\begin{tasks}(4)
+  \task $12 F$
+  \task $\dfrac{4F}{3}$
+  \task $\dfrac{4F}{9}$
+  \task $\dfrac{2F}{9}$
+\end{tasks}
+
+% ==================== QUESTION 14 ====================
+\questionheader{Question 14}
+
+{\bengalifont দুটি বৃত্তাকার কুণ্ডলীর ব্যাসার্ধের অনুপাত $1:2$। এদের চৌম্বক ভ্রামকের অনুপাত $1:2$ হলে, এদের মধ্যে দিয়ে প্রবাহিত তড়িৎপ্রবাহের অনুপাত হবে—}
+
+\vspace{0.1cm}
+\textit{The ratio of the radii of two circular coils is $1:2$. If the ratio of their magnetic moments is $1:2$, the ratio of the electric currents flowing through them will be:}
+
+\begin{tasks}(4)
+  \task $1:1$
+  \task $2:1$
+  \task $4:1$
+  \task $1:4$
+\end{tasks}
+
+% ==================== QUESTION 15 ====================
+\questionheader{Question 15}
+
+{\bengalifont কোন্ ক্ষেত্রে হুইটস্টোন ব্রিজের নিষ্পন্দ অবস্থাটি পরিবর্তিত হবে?}
+
+\vspace{0.1cm}
+\textit{In which case will the null condition (balanced state) of a Wheatstone bridge change?}
+
+\begin{tasks}(1)
+  \task {\bengalifont বিভিন্ন বাহুর রোধগুলিকে পরিবর্তিত করা হলে} / If the resistances of the different arms are changed
+  \task {\bengalifont ব্যাটারির ও গ্যালাভানোমিটারের অবস্থান বিনিময় করা হলে} / If positions of battery and galvanometer are interchanged
+  \task {\bengalifont অন্য তড়িৎচালক বলের ব্যাটারি নিলে} / If a battery of different EMF is used
+  \task {\bengalifont অন্য রোধের গ্যালাভানোমিটার নিলে} / If a galvanometer of different resistance is used
+\end{tasks}
+
+\end{document}
