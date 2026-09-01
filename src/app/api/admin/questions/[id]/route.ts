@@ -2,6 +2,8 @@ import { NextRequest, NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
 import { getAuthUserFromRequest } from '@/lib/auth';
 
+export const dynamic = 'force-dynamic';
+
 async function checkAdmin(req: NextRequest) {
   const user = await getAuthUserFromRequest(req);
   return user && user.role === 'ADMIN';
